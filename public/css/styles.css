@@ -1,0 +1,185 @@
+body {
+  background-color: #dddddd;
+}
+
+/*             Navbar Section             */
+.navbar-vertical {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lang {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.lang a {
+  padding: 5px;
+}
+.lang a:hover {
+border: 2px solid red;
+}
+
+.name {
+font-size: 3.5rem;
+padding: 0 0 10%;
+position: absolute;
+top: 20%;
+color: #333;
+}
+.burger ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.burger li{
+  text-align: center;
+padding: 10px 16px;
+
+}
+.burger li a {
+  text-decoration: none;
+  color: #000;
+  }
+
+.burger li a:hover {
+  background-color: #555;
+  color: white;
+  padding: 10px 16px;
+
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-vertical {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0;
+
+  }
+  .lang {
+
+  }
+  .name {
+ top: 0;
+   }
+
+   .burger {
+     position: absolute;
+     left: 0;
+
+   }
+
+  .burger li {
+    float: left;
+  }
+}
+
+.lorem {
+  padding-left: 350px;
+}
+
+/*             Home Section             */
+#homeSection {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+/*             Gallery Section             */
+#gallerySection {
+  background-color: #f2f2f2;
+  padding: 7% 15%;
+}
+
+#gallerySection img {
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+}
+
+/* .gallery-img {
+  width: 100%;
+  height: auto;
+} */
+#gallerySectionNav {
+  background-color: #f2f2f2;
+  padding: 1% 5% 5% 25%;
+}
+
+#gallerySectionNav img {
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+}
+
+
+
+/*             About Section             */
+#aboutSection {
+  background-color: grey;
+  padding: 7% 15%;
+}
+#aboutSectionNav {
+  background-color: grey;
+  padding: 5% 5% 5% 25%;
+}
+
+.about-img-div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: width 2s, height 4s, transform 2s;
+  margin: auto;
+  position: relative;
+}
+
+.about-img-div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(40deg);
+}
+
+.about-img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+#faqSection{
+  background-color: #f2f2f2;
+  padding: 7% 15%;
+}
+
+
+
+/*             Contact Section             */
+#contactSection {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+/*             Footer Section             */
+footer {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: grey;
+}
