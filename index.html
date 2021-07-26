@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Test MajaArt</title>
+  <title>MajoArt</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,8 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+  <!-- FontAwsome -->
+  <script src="https://kit.fontawesome.com/9c31cf3810.js" crossorigin="anonymous"></script>
 
   <link rel="icon" href="public/images/grFav.ico">
   <link href="public/css/styles.css" rel="stylesheet">
@@ -21,17 +23,36 @@
 
 
   <!--            Navbar Section         -->
+  <nav class="nav-bar">
 
+
+    <i class="fas fa-bars fa-2x hamburger"></i>
+
+
+    <ul class="nav-links">
+      <li><a class="nav-link" href="#home">Galeria</a></li>
+      <li><a class="nav-link" href="#news">O Autorze</a></li>
+      <li><a class="nav-link" href="#contact">FAQ</a></li>
+      <li><a class="nav-link" href="#about">Kontact</a></li>
+    </ul>
+
+
+    <a class="langIcon" href="#"><img src="public/images/UK.png" alt="UK" width="24" height="24"></a>
+    <!-- <a class="langIcon" href="#"><img src="public/images/PL.png" alt="PL" width="24" height="24"></a> -->
+
+
+  </nav>
 
 
 
   <!--            Home Section         -->
 
+
   <section id="homeSection">
-    <div class="">
+    <div class="home">
       <h1><em>Majo</em>Art</h1>
-      <p>Nacisnij na link by zobaczyc druga wersje paska nawigacyjnego</p>
-      <a href="navbar.html">Wersja2</a>
+<p>Świat staje się piękniejszy, gdy są w nim kolory, więc pozwól mi przemalować TWOJ świat, zrobię to samo z moim.</p>
+</p>
     </div>
   </section>
 
@@ -40,7 +61,7 @@
 
   <!--            Gallery Section         -->
   <section id="gallerySection">
-
+<h1>Galeria</h1>
 
     <div class="row">
 
@@ -72,6 +93,7 @@
 
   <!--            About Section         -->
   <section id="aboutSection">
+    <h1>O Autorze</h1>
     <div class="row">
 
 
@@ -79,7 +101,7 @@
         <img class="about-img" src="public/images/Maja.jpg" alt="">
       </div>
       <div class="col-lg-7">
-        <p>Świat staje się piękniejszy, gdy są w nim kolory, więc pozwól mi przemalować TWOJ świat, zrobię to samo z moim.</p>
+        <p>cos o tobie w trzeciej osobie</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
       </div>
@@ -88,17 +110,22 @@
 
   <!--            FAQ Section         -->
   <section id="faqSection">
-<h1>Najczęściej zadawane pytania (dalam przykladowe pytania)</h1>
-<h6>Ile kosztuje wykonanie obrazu na zlecenie?</h6>
-<p>cena zalezy od rozmiaru obrazu.. ble ble ble. Mozna sie spodziewac w granicacj XXXzl to YYYzl.</p>
+    <h1>FAQ - Często zadawane pytania</h1>
+    <h3>Ile kosztuje wykonanie obrazu na zlecenie?</h3>
+    <p>cena zalezy od rozmiaru obrazu.. ble ble ble. Mozna sie spodziewac w granicacj XXXzl to YYYzl.</p>
+<h3>Metody platnosci i przesylka</h3>
+<p>....odp.</p>
+
   </section>
+
 
 
 
   <!--            Contact Section         -->
   <section id="contactSection">
-<p>email</p>
-<p>facebook</p>
+    <h1>Kontact</h1>
+    <p>email</p>
+    <p>facebook</p>
   </section>
 
 
@@ -112,6 +139,8 @@
 
   <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
   <script src="index.js"></script>
 
 </body>
