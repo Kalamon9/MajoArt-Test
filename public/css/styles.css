@@ -6,8 +6,27 @@
 
 body {
   background-color: #dddddd;
-  font-family: sans-serif;
+  font-family: 'Bitter', serif;
 }
+
+h1{
+  font-family: 'Fredericka the Great';
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+p{
+font-size: 1.2rem;
+font-weight: 300;
+line-height: 1.5;
+}
+
+/* font-family: 'Bitter', serif;
+
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Lora', serif;
+
+font-family: 'Zen Tokyo Zoo', cursive;*/
 
 /*             Navbar Section             */
 .nav-bar {
@@ -81,18 +100,12 @@ body {
     display: block;
   }
 }
-.photoHome {
 
-  width: 100%;
-  height: auto;
-  background-color: red;
-
-}
 /*             Home Section             */
 #homeSection {
   background-color: #fff;
   padding: 7% 15%;
-  height: 500px;
+  height: 100vh;
   background-image: url("../images/4.jpg");
   background-size: cover;
   background-position: center;
@@ -109,11 +122,15 @@ body {
 }
 .home h1{
   padding: 5%;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-family: 'Zen Tokyo Zoo';
 }
 .home p{
-  padding: 0 3% 3%;
-  line-height: 1.5;
+  padding: 0 2% 2%;
+  font-size: 0.9rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 1.2;
 }
 
 /*             Gallery Section             */
